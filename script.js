@@ -12,17 +12,17 @@ function beer() {
     } else {
       jcase = "bottle";
     }
-    document.writeln(i + " " + icase + " of beer on the wall,");
-    document.writeln(i + " " + icase + " of beer,");
-    document.writeln("Take 1 down, pass it around,");
+    document.writeln(i + " " + icase + " of beer on the wall , ");
+    document.writeln(i + " " + icase + " of beer , ");
+    document.writeln("Take 1 down, pass it around , ");
     if (j != 0) {
-      document.writeln(j + " " + jcase + " of beer on the wall.");
+      document.writeln(j + " " + jcase + " of beer on the wall. ");
     } else {
-      document.writeln("No more bottles of beer on the wall!");
+      document.writeln("No more bottles of beer on the wall! ");
     }
     document.writeln()
   }
 } else {
-  document.write("You might want think about moving to another community.")
+  document.write("click accept or you wont see.")
 }
 }

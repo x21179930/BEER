@@ -23,6 +23,6 @@ function beer() {
     document.writeln()
   }
 } else {
-  document.write("click ok or you wont see the beer song lyrics.")
+  document.write("click ok or you wont see the beer song lyrics!.")
 }
 }
